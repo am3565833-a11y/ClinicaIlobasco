@@ -241,6 +241,45 @@
       animation: float-particle 8s infinite ease-in-out;
     }
 
+
+    .dashboard {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 220px;
+}
+
+.card h3 {
+    color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+ 
     @keyframes float-particle {
       0%, 100% { transform: translate(0, 0) rotate(0deg); }
       25% { transform: translate(10px, -15px) rotate(90deg); }
